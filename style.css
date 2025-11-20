@@ -205,12 +205,14 @@ a {
     display: flex;
     flex-direction: column;
     height: 100%;
+   
 }
 
 .book-cover {
     
-    height: 450px; 
+    height: 650px; 
     object-fit: cover; 
+     background-size: cover;
     border-bottom: 1px solid var(--border-color);
     
 }
